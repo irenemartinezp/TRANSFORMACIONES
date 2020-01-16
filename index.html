@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imatge trocejada</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        [class*="d"]{
+            width: 166.66666666px;
+            height: 150px;
+            overflow: hidden;
+        }
+        .f_1, .f_2{
+            display: flex;
+        }
+        .d1 img{
+            transform: translate(0,0);
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d1:hover img{
+            opacity: 0.4;
+        }
+        .d1:hover{
+            background: pink;
+        }
+        .d2 img{
+            transform: translate(-166.66666666px,0);
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d2:hover img{
+            opacity: 0.4;
+        }
+        .d2:hover{
+            background: red;
+        }
+        .d3 img{
+            transform: translate(-333px,0);
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d3:hover img{
+            opacity: 0.4;
+        }
+        .d3:hover{
+            background: darkred;
+        }
+        .d4 img{
+            transform: translate(0,-150px);
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d4:hover img{
+            opacity: 0.4;
+        }
+        .d4:hover{
+            background: white;
+        }
+        .d5 img{
+            transform: translate(-166.66666666px,-150px);
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d5:hover img{
+            opacity: 0.4;
+        }
+        .d5:hover{
+            background: gray;
+        }
+        .d6 img{
+            transform: translate(-333px,-150px);
+            opacity: 1;
+            transition: 0.5s opacity;
+        }
+        .d6:hover img{
+            opacity: 0.4;
+        }
+        .d6:hover{
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="f_1">
+            <div class="d1">
+                <img src="img/itienes_dos_dias_libres_escapate_a_paris_6314_940x627.jpg" alt="i1">
+            </div>
+            <div class="d2">
+                <img src="img/itienes_dos_dias_libres_escapate_a_paris_6314_940x627.jpg" alt="i2">
+            </div>
+            <div class="d3">
+                <img src="img/itienes_dos_dias_libres_escapate_a_paris_6314_940x627.jpg" alt="i3">
+            </div>
+        </div>
+        <div class="f_2">
+            <div class="d4">
+                <img src="img/itienes_dos_dias_libres_escapate_a_paris_6314_940x627.jpg" alt="i4">
+            </div>
+            <div class="d5">
+                <img src="img/itienes_dos_dias_libres_escapate_a_paris_6314_940x627.jpg" alt="i5">
+            </div>
+            <div class="d6">
+                <img src="img/itienes_dos_dias_libres_escapate_a_paris_6314_940x627.jpg" alt="i6">
+            </div>
+        </div>
+    </div>
+</body></html>
